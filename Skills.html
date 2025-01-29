@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">  <!-- Link to the same CSS file -->
     <title>Skills</title>
 </head>
-<body>
+
+<body class="skills-page">  <!-- Added a unique class for styling the skills page -->
     <header>
         <a href="index.html" class="logo">Saurav Ojha</a>
+
         <nav>
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="Skills.html" class="active">Skills</a>
+            <a href="index.html" class="active">Home</a>
+            <a href="Skill.html">Skills</a>  <!-- Link to skills page -->
             <a href="education.html">Education</a>
             <a href="experience.html">Experience</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
+
     <section class="skills">
-        <h1>Skills</h1>
-        <p>Here are the skills I have in data science:</p>
-        <ul>
-            <li>Python</li>
-            <li>Pandas</li>
-            <li>NumPy</li>
-            <li>SQL</li>
-            <li>Tableau</li>
-            <li>Power BI</li>
-        </ul>
+        <h1>My Skills</h1>
+        <p>Here are some of the skills I've gained through my journey in Data Science:</p>
+
+        <div class="skills-list">
+            <!-- Example of skills listed in a grid -->
+            <div class="skill-item">
+                <h3>Python</h3>
+                <p>Experienced in Python programming for data analysis, machine learning, and automation.</p>
+            </div>
+            <div class="skill-item">
+                <h3>Tableau</h3>
+                <p>Proficient in creating interactive data visualizations and dashboards using Tableau.</p>
+            </div>
+            <div class="skill-item">
+                <h3>SQL</h3>
+                <p>Skilled in writing complex SQL queries for data extraction and analysis from databases.</p>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
     </section>
+
+    <footer>
+        <p>© 2025 Saurav Ojha</p>
+    </footer>
+
 </body>
+
 </html>
